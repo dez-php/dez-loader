@@ -1,0 +1,21 @@
+{
+  "name": "dez-php/dez-loader",
+  "description": "Universal Autoloader",
+  "keywords": ["php loader", "php autoloader", "loader", "autoloader", "dez-php autoloader"],
+  "authors": [
+    {
+      "name": "Ivan Gontarenko",
+      "email": "vania.gontarenko@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dez\\Loader\\": "src/Loader"
+    }
+  }
+}
